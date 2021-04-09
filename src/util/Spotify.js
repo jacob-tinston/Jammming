@@ -1,5 +1,5 @@
 const clientId = '1199ee6a671c4ded9ad9f9ad7d0f6126';
-const redirectUri = "http://localhost:3000/";
+const redirectUri = "https://compassionate-carson-14f78f.netlify.app/";
 const spotifyUrl = `https://accounts.spotify.com/authorize?client_id=${clientId}&response_type=token&scope=playlist-modify-public&redirect_uri=${redirectUri}`;
 
 let accessToken = undefined;
